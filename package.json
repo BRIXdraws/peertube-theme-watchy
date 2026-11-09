@@ -1,0 +1,18 @@
+{
+  "name": "peertube-theme-watchy",
+  "description": "The official Watchy theme",
+  "version": "1.0.0",
+  "author": "Watchy",
+  "homepage": "https://github.com/BRIXdraws/peertube-theme-watchy",
+  "bugs": {
+    "url": "https://github.com/BRIXdraws/peertube-theme-watchy/issues"
+  },
+  "engine": {
+    "peertube": ">=7.0.0"
+  },
+  "css": [
+    "assets/style.css"
+  ],
+  "clientScripts": [],
+  "staticDirs": {}
+}
