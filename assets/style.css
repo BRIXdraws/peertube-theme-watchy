@@ -1,19 +1,46 @@
+
 :root {
   --is-dark: 1;
+
   --primary: #8b5cf6;
   --on-primary: #ffffff;
+  --border-primary: #8b5cf6;
+
   --bg: #0f0f12;
   --bg-secondary: #18181f;
+  --bg-tertiary: #22222c;
+
   --fg: #f5f5f5;
-  --fg-secondary: #b3b3bd;
-  --border-primary: #8b5cf6;
+  --fg-secondary: #aaaaba;
 }
 
 body#custom-css {
-  background-color: #0f0f12;
-  color: #f5f5f5;
+  background: var(--bg);
+  color: var(--fg);
 }
 
 #custom-css .header {
-  background-color: #18181f;
+  background: #18181f;
+  border-bottom: 1px solid #292936;
+}
+
+#custom-css .main-col {
+  background: var(--bg);
+}
+
+#custom-css .video-miniature {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#custom-css .video-miniature img {
+  border-radius: 12px;
+}
+
+#custom-css a:hover {
+  color: #a78bfa;
+}
+
+#custom-css button {
+  border-radius: 8px;
 }
